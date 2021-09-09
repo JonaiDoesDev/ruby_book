@@ -1,20 +1,20 @@
-# a = [1, 2, 3]
+a = [1, 2, "a"]
 
-# def mutate(array)
-#   array.pop
-# end
-
-# p "Before mutate method: #{a}"
-# mutate(a)
-# p "After mutate method: #{a}"
-
-
-a = [1, 2, 3]
-
-def no_mutate(array)
-  array.last
+def mutate(array)
+  array.pop
 end
 
-puts "Before no_mutate method: #{a}"
-no_mutate(a)
-p "Before no_mutate method: #{a}"
+p "Before mutate method: #{a}"
+p mutate(a)
+p "After mutate method: #{a}"
+
+
+# a = [1, 2, 3]
+
+# def no_mutate(array)
+#   array.last
+# end
+
+# p "Before no_mutate method: #{a}"
+# no_mutate(a)
+# p "Before no_mutate method: #{a}"
