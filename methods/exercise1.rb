@@ -1,7 +1,11 @@
 def greeting(name = "messi")
-  puts "Hello #{name}"
+  "Hello #{name}"
 end
 
 
-greeting("jonai")
+
+puts "whats your name?"
+name_ans = gets.chomp.capitalize
+
+puts greeting(name_ans)
 greeting()
