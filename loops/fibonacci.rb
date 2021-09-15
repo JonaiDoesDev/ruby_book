@@ -8,3 +8,4 @@ end
 
 puts fibonacci(6)
 
+5 + 4 = 9
