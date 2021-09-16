@@ -11,5 +11,8 @@ person[:hair] = "brown"
 # puts person[:age]
 # puts person[:name]
 
- person.values.each_with_index { |val, i| puts "#{i + 1}. #{val}" + " this is a value" }
+ person.values.each_with_index do |val, i|
+    puts "#{i + 1}. #{val}" + " this is a value"
+ end
+
 
