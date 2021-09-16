@@ -1,0 +1,1 @@
+Exception handling is basically the ability to not let an error in a process ruin or stop our whole code. It is a way to skip and error (or gives us what that error is) and still be able to continue executing the code.
