@@ -14,6 +14,8 @@ numbers = []
 loop do
   puts 'Enter any number:'
   input = gets.chomp.to_i
-  numbers.push(input)
-end
+  numbers.push
+  break if numbers == 3 
+  end
+
 puts numbers
