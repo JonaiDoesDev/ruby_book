@@ -4,3 +4,7 @@ numbers = {
   low:    10
 }
 
+numbers.each do |key, value|
+  puts "#{key} and #{value}"
+end
+
